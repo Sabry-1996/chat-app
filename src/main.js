@@ -16,8 +16,6 @@ Vue.use(IconsPlugin)
 
 Vue.config.productionTip = false
 
-
-
 Vue.prototype.$moment = moment
 Vue.prototype.$socket = io(`https://chat-app-sabry-1996.vercel.app:${process.env.VUE_APP_SOCKET_PROT}`, { transports: ['websocket', 'polling', 'flashsocket'] })
 
